@@ -1,0 +1,381 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*=========================================*/
+/* DEFAULT */
+/*=========================================*/
+
+.primary-btn {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 30px;
+  font-weight: 700px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background-color: #fff;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  cursor: pointer;
+}
+
+.section-heading-content {
+  padding: 130px 150px 0px 150px;
+  text-align: center;
+}
+
+.section-heading-content h3 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+}
+
+.section-heading-content p {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/*=========================================*/
+/* Navbar Menu */
+/*=========================================*/
+
+header {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fff8f3;
+  background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.navber {
+  display: flex;
+  padding: 80px 0px;
+  justify-content: space-between;
+  margin: 0px 250px;
+}
+
+.logo a {
+  color: #181818;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 61px;
+  text-decoration: none;
+}
+#logo_id {
+  color: #fd6e0a;
+}
+.menu {
+  display: flex;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 70px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #474747;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+  transition: 0.1ms;
+}
+
+/*=========================================*/
+/*Banner Section */
+/*=========================================*/
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  /* width: 1140px;
+  margin: 0 auto; */
+
+  margin: 0 250px;
+}
+.description {
+  margin-top: 185px;
+}
+
+.description .title-description {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+}
+
+.title-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+.title-btn {
+  margin-top: 30px;
+}
+
+.title-btn-style2 {
+  background-color: #fff;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  padding: 20px 30px;
+  font-weight: 700px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fd6e0a;
+  margin-left: 10px;
+}
+
+.title-btn-style2:hover {
+  background-color: #181818;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.banner-main-img {
+  position: relative;
+  left: 220px;
+  bottom: -5px;
+}
+/*=========================================*/
+/*ABOUT SECTION*/
+/*=========================================*/
+.about {
+  text-align: center;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  margin-top: 130px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 130px;
+}
+
+.info-description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #474747;
+}
+
+/*=========================================*/
+/*What I do */
+/*=========================================*/
+
+.skill-section {
+  display: flex;
+}
+
+.skills {
+  padding: 30px;
+  /* background-color: #757575; */
+}
+
+.skills img,
+h5 {
+  margin-bottom: 30px;
+}
+
+.skills h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #181818;
+}
+
+.skills p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+/*=========================================*/
+/* RESUME */
+/*=========================================*/
+
+.resume {
+  margin-top: 130px;
+}
+.resume h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 110px;
+}
+
+.resume-description {
+  display: flex;
+}
+
+.resume-content {
+  border-bottom: 1px solid #474747;
+  margin: 0px 30px 30px 0px;
+}
+
+.rd-4 {
+  border-bottom: none;
+}
+
+.resume-content-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.resume-content-title-two {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.resume-content-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.resume-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.resume-downlaod {
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+/*=========================================*/
+/* Contact us */
+/*=========================================*/
+.footer-section {
+  background-color: #fff8f3;
+}
+.contact {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content-description {
+  flex: 50%;
+}
+
+.content-description h3 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+  margin-top: 130px;
+}
+
+.content-description p {
+  margin: 20px 20px 20px 0px;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+.social-link a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.contact-form {
+  flex: 50%;
+  margin-bottom: 130px;
+}
+
+.contact-form h3 {
+  font-weight: 700px;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+  margin-top: 130px;
+}
+
+.form-validation {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-validation input[type="text"],
+input[type="email"],
+textarea {
+  padding: 20px;
+  width: 70%;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-validation input[type="text"],
+input[type="email"],
+textarea:focus {
+  outline: none;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  width: 150px;
+}
+
+.copyright {
+  background-color: #000;
+}
+
+.copy-section {
+  width: 1140px;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  min-height: 100px;
+}
+
+.copyright p {
+  padding-top: 50px;
+}
