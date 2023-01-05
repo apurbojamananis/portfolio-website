@@ -111,9 +111,6 @@ header {
 .banner {
   display: flex;
   justify-content: space-between;
-  /* width: 1140px;
-  margin: 0 auto; */
-
   margin: 0 250px;
 }
 .description {
@@ -167,6 +164,10 @@ header {
   position: relative;
   left: 220px;
   bottom: -5px;
+}
+
+.banner-main-img img {
+  height: 650px;
 }
 /*=========================================*/
 /*ABOUT SECTION*/
